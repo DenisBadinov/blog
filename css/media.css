@@ -1,0 +1,13 @@
+@media (max-width: 1440px) {
+    
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 70px 0px 0px 0px;
+    }
+}
