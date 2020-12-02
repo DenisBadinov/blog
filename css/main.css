@@ -11,26 +11,38 @@
     height: 183px;
 }
 
+.card-body h4{
+    text-align: center;
+    padding: 15px 0;
+    height: 96px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
 .card-body p {
     margin-top: 0;
     margin-bottom: 1rem;
-    display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;  
     overflow: hidden;
     height: 96px;
+    display: none;
+}
+
+.card:hover p{
+    display: -webkit-box;
+}
+
+.card:hover h4{
+    display: none;
 }
 
 .card-img-top{
     height: 225px;
     width: 100%; 
     display: block;
-}
-
-.card-img-top h4{
-    text-align: center;
-    padding: 15px 0;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-group button{
